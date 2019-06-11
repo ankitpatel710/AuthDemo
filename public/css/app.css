@@ -1,0 +1,52 @@
+body {
+  font-family: "Saira Semi Condensed", "sans-serif";
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+.center {
+  z-index: 1;
+  position: relative;
+  padding-top: 20vh;
+}
+
+#detail {
+  border-style: solid;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 2px;
+  background: #000000;
+}
+
+.btn {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 2px;
+  border-color: #000000;
+  color: #34e89e;
+  background: #000000;
+  margin: 10px;
+}
+
+.input {
+  border-style: solid;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 2px;
+  border-color: #000000;
+  background: #34e89e;
+  color: black;
+  margin: 10px;
+}
